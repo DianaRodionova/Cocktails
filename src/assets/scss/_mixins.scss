@@ -1,0 +1,7 @@
+@mixin h1() {
+  font-size: 32px;
+  font-weight: $font-weight-medium;
+  line-height: 38px;
+
+  text-transform: uppercase; 
+}

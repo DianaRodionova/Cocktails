@@ -1,0 +1,15 @@
+$white: #FFFFFF;
+$cod-gray: #141414;
+
+/**
+ * Fonts
+ */
+$font-family-default: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+$font-family-custom: 'Raleway';
+$font-family: $font-family-custom, $font-family-default;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+
+$page-min-width: 356px;
