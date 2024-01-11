@@ -1,0 +1,38 @@
+.home {
+  &__select {
+    .el-input__wrapper {
+      background: $cod-gray;
+    }
+
+    .select-trigger .el-input__wrapper {
+      box-shadow: 0 0 0 1px  rgba(255, 255, 255, 0.70) inset ;
+      
+      &.is-focus {
+        box-shadow: 0 0 0 1px $rose inset !important;
+      }
+    }
+    
+    .el-input.is-focus .el-input__wrapper {
+      &.is-focus {
+        box-shadow: 0 0 0 1px $rose inset !important;
+      }
+    }
+
+    .el-input__inner {
+      font-family: $font-family;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: rgba($alto, 0.80);
+    }
+
+    .el-select-dropdown__item {
+      color: rgba($alto, 0.80);
+    }
+  }
+}
+
+.el-select-dropdown__list .el-select-dropdown__item.selected {
+  color: $rose;
+}
+
