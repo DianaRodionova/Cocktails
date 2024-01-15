@@ -49,7 +49,7 @@
 </script>
 
 <template>
-  <Layout imgUrl="/src/assets/img/cocktail.jpg" :is-back-button-visible="!!ingredient || !!filter" :backFunction="removeList">
+  <Layout imgUrl="src/assets/img/cocktail.jpg" :is-back-button-visible="!!ingredient || !!filter" :backFunction="removeList">
     <div v-if="!ingredient && !filter" class="home">
       <h1 class="home__title">Choose your drink</h1>
 
@@ -87,7 +87,7 @@
 
       <p class="home__text">Try our delicious cocktail recipes for every occasion. Find delicious cocktail recipes by ingredient through our cocktail generator.</p>
 
-      <img class="home__image" src="/src/assets/img/cocktails.png" width="345" height="120" alt="Пять разных коктейлей">
+      <img class="home__image" src="../assets/img/cocktails.png" width="345" height="120" alt="Пять разных коктейлей">
     </div>
 
     <div v-else class="home">
