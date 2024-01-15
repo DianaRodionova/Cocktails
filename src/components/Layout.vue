@@ -38,7 +38,8 @@
 
 <template>
   <div class="layout">
-    <section class="layout__image" :style="`background-image: url(${imgUrl});`" />
+    <!-- <section class="layout__image" :style="`background-image: url(${imgUrl});`" /> -->
+    <img class="layout__image" :src="imgUrl" width="50%" height="100%" alt="Коктейль">
 
     <section class="layout__main">
       <el-button v-if="isBackButtonVisible" class="layout__back" :icon="Back" circle @click="goBack"/>
@@ -57,11 +58,14 @@
 
     &__image {
       width: 50%;
+      height: 100%;
 
-      background-color: $cod-gray;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-      background-size: cover;
+      object-fit: cover;
+
+      // background-color: $cod-gray;
+      // background-repeat: no-repeat;
+      // background-position: 50% 50%;
+      // background-size: cover;
     }
 
     &__main {
