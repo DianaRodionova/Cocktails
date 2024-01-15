@@ -38,7 +38,7 @@
 
 <template>
   <div class="layout">
-    <section class="layout__image" :style="`background: url('${imgUrl}');`" />
+    <section class="layout__image" :style="`background-image: url(${imgUrl});`" />
 
     <section class="layout__main">
       <el-button v-if="isBackButtonVisible" class="layout__back" :icon="Back" circle @click="goBack"/>

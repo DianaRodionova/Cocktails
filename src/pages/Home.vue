@@ -49,7 +49,7 @@
 </script>
 
 <template>
-  <Layout imgUrl="src/assets/img/cocktail.jpg" :is-back-button-visible="!!ingredient || !!filter" :backFunction="removeList">
+  <Layout imgUrl="/src/assets/img/cocktail-orange.jpg" :is-back-button-visible="!!ingredient || !!filter" :backFunction="removeList">
     <div v-if="!ingredient && !filter" class="home">
       <h1 class="home__title">Choose your drink</h1>
 
